@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Teniola — Full Stack Developer specializing in Angular, Spring Boot, Java, and TypeScript. Based in Lagos, Nigeria." />
+  <meta name="keywords" content="Teniola, Full Stack Developer, Angular, Spring Boot, Java, TypeScript, Lagos Nigeria" />
+  <meta name="author" content="Teniola" />
+  <title>Teniola — Full Stack Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- PAGE LOADER -->
+  <div id="page-loader">
+    <div class="loader-inner">
+      <div class="loader-logo">T.</div>
+      <div class="loader-track"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- SCROLL PROGRESS -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ═══ NAVBAR ═══ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">Teniola<span class="dot">.</span></a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home"     class="nl active">Home</a></li>
+        <li><a href="#about"    class="nl">About</a></li>
+        <li><a href="#skills"   class="nl">Skills</a></li>
+        <li><a href="#projects" class="nl">Projects</a></li>
+        <li><a href="#process"  class="nl">Process</a></li>
+        <li><a href="#request"  class="nl">Hire Me</a></li>
+        <li><a href="#contact"  class="nl">Contact</a></li>
+      </ul>
+
+      <div class="nav-end">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">
+          <i class="fas fa-moon" id="theme-icon"></i>
+        </button>
+        <a href="my cv.pdf" download class="cv-btn"><i class="fas fa-download"></i> CV</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <ul>
+        <li><a href="#home"     class="ml">Home</a></li>
+        <li><a href="#about"    class="ml">About</a></li>
+        <li><a href="#skills"   class="ml">Skills</a></li>
+        <li><a href="#projects" class="ml">Projects</a></li>
+        <li><a href="#process"  class="ml">Process</a></li>
+        <li><a href="#request"  class="ml">Hire Me</a></li>
+        <li><a href="#contact"  class="ml">Contact</a></li>
+      </ul>
+      <div class="mobile-socials">
+        <a href="https://github.com/teniola"      target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://wa.me/2347042692224"      target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:teniolamercyola@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section id="home" class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hgrid"></div>
+      <div class="hblob b1"></div>
+      <div class="hblob b2"></div>
+      <div class="hblob b3"></div>
+    </div>
+
+    <div class="hero-wrap">
+      <div class="hero-text">
+        <div class="avail-chip reveal-up">
+          <span class="chip-pulse"></span> Available for freelance &amp; remote work
+        </div>
+
+        <h1 class="hero-h1 reveal-up">
+          <span class="h-greeting">Hi, I'm</span>
+          <span class="h-name">Teniola</span>
+          <span class="h-role">Full Stack <em>Developer</em></span>
+        </h1>
+
+        <p class="hero-p reveal-up">
+          I build robust, scalable web applications end-to-end — crafting clean Angular UIs, powerful Spring Boot APIs, and smart Java backends. Based in Lagos, Nigeria and open to the world.
+        </p>
+
+        <div class="hero-ctas reveal-up">
+          <a href="#projects" class="btn btn-primary"><i class="fas fa-code"></i> View My Work</a>
+          <a href="#request"  class="btn btn-outline"><i class="fas fa-rocket"></i> Request a Site</a>
+          <a href="#contact"  class="btn btn-ghost"><i class="fas fa-paper-plane"></i> Contact Me</a>
+        </div>
+
+        <div class="hero-soc reveal-up">
+          <a href="https://github.com/teniola"      target="_blank" class="soc-a" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://wa.me/2347042692224"      target="_blank" class="soc-a" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="mailto:teniolamercyola@gmail.com" class="soc-a"   title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-stats reveal-right">
+        <div class="scard"><span class="snum" data-target="3">0</span><span class="slbl">Years Exp.</span></div>
+        <div class="scard"><span class="snum" data-target="10">0</span><span class="slbl">Projects</span></div>
+        <div class="scard"><span class="snum" data-target="7">0</span><span class="slbl">Technologies</span></div>
+        <div class="scard scard-loc"><i class="fas fa-map-marker-alt"></i><span>Lagos, Nigeria</span></div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-hint"><i class="fas fa-chevron-down"></i></a>
+  </section>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section id="about" class="section about">
+    <div class="container">
+      <p class="sec-lbl reveal-up">// About me</p>
+      <h2 class="sec-h reveal-up">Passionate about<br /><em>building things</em></h2>
+
+      <div class="about-grid">
+        <div class="about-img reveal-left">
+          <div class="img-frame">
+            <img src="me.jpg" alt="">
+            <div class="ftag ft1"><i class="fas fa-code"></i> Clean Code</div>
+            <div class="ftag ft2"><i class="fas fa-mobile-alt"></i> Mobile First</div>
+          </div>
+        </div>
+
+        <div class="about-body reveal-right">
+          <p>I'm Teniola — a Full Stack Developer based in Lagos, Nigeria with 3+ years of experience building complete web solutions. I specialize in crafting performant Angular frontends backed by clean Spring Boot APIs and solid SQL databases.</p>
+          <p>I thrive at the crossroads of thoughtful UI design and solid backend engineering — well-architected code, great user experience, and on-time delivery every time.</p>
+
+          <ul class="facts">
+            <li><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</li>
+            <li><i class="fas fa-briefcase"></i> 3+ Years Experience</li>
+            <li><i class="fas fa-wifi"></i> Available Remotely</li>
+            <li><i class="fas fa-envelope"></i> teniolamercyola@gmail.com</li>
+          </ul>
+
+          <div class="about-ctas">
+            <a href="#contact"        class="btn btn-primary"><i class="fas fa-envelope"></i> Get in Touch</a>
+            <a href="my cv.pdf"  class="btn btn-outline" download><i class="fas fa-download"></i> Download CV</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tech icons -->
+      <div class="tech-row reveal-up">
+        <div class="tch"><i class="fab fa-html5"></i><span>HTML</span></div>
+        <div class="tch"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+        <div class="tch"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+        <div class="tch"><i class="fab fa-angular"></i><span>Angular</span></div>
+        <div class="tch"><i class="fab fa-java"></i><span>Java</span></div>
+        <div class="tch"><i class="fas fa-leaf"></i><span>Spring Boot</span></div>
+        <div class="tch"><i class="fas fa-database"></i><span>SQL</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SKILLS ═══ -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <p class="sec-lbl reveal-up">// Skills</p>
+      <h2 class="sec-h reveal-up">Technical<br /><em>proficiency</em></h2>
+      <div class="skills-grid">
+        <div id="skills-bars" class="skills-bars reveal-left"></div>
+        <div class="svc-cards reveal-right">
+          <div class="svc"><div class="svc-ico"><i class="fas fa-paint-brush"></i></div><h4>Frontend Dev</h4><p>Angular, TypeScript, HTML &amp; CSS — pixel-perfect, responsive UIs.</p></div>
+          <div class="svc"><div class="svc-ico"><i class="fas fa-server"></i></div><h4>Backend Dev</h4><p>Spring Boot REST APIs, Java services, and clean architecture.</p></div>
+          <div class="svc"><div class="svc-ico"><i class="fas fa-database"></i></div><h4>Database</h4><p>SQL schema design, query optimisation, and data modelling.</p></div>
+          <div class="svc"><div class="svc-ico"><i class="fas fa-plug"></i></div><h4>Integration</h4><p>Connecting frontends to backends seamlessly via REST.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PROJECTS ═══ -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <p class="sec-lbl reveal-up">// Portfolio</p>
+      <h2 class="sec-h reveal-up">My<br /><em>Projects</em></h2>
+      <div class="filter-bar reveal-up" id="filter-bar"></div>
+      <div id="projects-grid" class="proj-grid"></div>
+      <p id="no-results" class="no-res" style="display:none;"><i class="fas fa-search"></i> No projects match this filter.</p>
+    </div>
+  </section>
+
+  <!-- ═══ PROCESS ═══ -->
+  <section id="process" class="section process">
+    <div class="container">
+      <p class="sec-lbl reveal-up">// How I Work</p>
+      <h2 class="sec-h reveal-up">My development<br /><em>process</em></h2>
+      <div class="proc-grid" id="proc-grid"></div>
+    </div>
+  </section>
+
+  <!-- ═══ HIRE ME ═══ -->
+  <section id="request" class="section request">
+    <div class="container">
+      <p class="sec-lbl reveal-up">// Hire Me</p>
+      <h2 class="sec-h reveal-up">Request a<br /><em>Website</em></h2>
+      <p class="sec-sub reveal-up">Fill the form — I'll open a WhatsApp message you can review before sending.</p>
+      <div class="req-layout">
+        <aside class="req-info reveal-left">
+          <h3>What I build</h3>
+          <ul class="svc-list">
+            <li><i class="fas fa-check-circle"></i> Business &amp; Landing Pages</li>
+            <li><i class="fas fa-check-circle"></i> E-Commerce Stores</li>
+            <li><i class="fas fa-check-circle"></i> Full Stack Web Apps</li>
+            <li><i class="fas fa-check-circle"></i> Portfolio Websites</li>
+            <li><i class="fas fa-check-circle"></i> Admin Dashboards</li>
+            <li><i class="fas fa-check-circle"></i> REST API Development</li>
+          </ul>
+          <div class="wa-chip">
+            <i class="fab fa-whatsapp"></i>
+            <div><span>Chat directly</span><strong>+234 704 269 2224</strong></div>
+          </div>
+        </aside>
+        <form id="request-form" class="req-form reveal-right" novalidate>
+          <div class="form-row">
+            <div class="fg"><label for="rn">Name <abbr title="required">*</abbr></label><input type="text"   id="rn" name="name"     placeholder="Ada Johnson" required /></div>
+            <div class="fg"><label for="rb">Business Name</label>                       <input type="text"   id="rb" name="business" placeholder="Acme Ltd."  /></div>
+          </div>
+          <div class="fg"><label for="re">Email <abbr title="required">*</abbr></label><input type="email"  id="re" name="email"    placeholder="ada@example.com" required /></div>
+          <div class="form-row">
+            <div class="fg">
+              <label for="rt">Website Type <abbr title="required">*</abbr></label>
+              <select id="rt" name="type" required>
+                <option value="">Select…</option>
+                <option>Business / Landing Page</option><option>E-Commerce Store</option>
+                <option>Portfolio Website</option><option>Web Application</option>
+                <option>Admin Dashboard</option><option>Other</option>
+              </select>
+            </div>
+            <div class="fg">
+              <label for="rbu">Budget <abbr title="required">*</abbr></label>
+              <select id="rbu" name="budget" required>
+                <option value="">Select…</option>
+                <option>Under ₦100,000</option><option>₦100,000 – ₦250,000</option>
+                <option>₦250,000 – ₦400,000</option><option>₦400,000 – ₦700,000</option>
+                <option>Above ₦700,000</option>
+              </select>
+            </div>
+          </div>
+          <div class="fg"><label for="rd">Deadline</label><input type="date" id="rd" name="deadline" /></div>
+          <div class="fg"><label for="rdesc">Description <abbr title="required">*</abbr></label><textarea id="rdesc" name="desc" rows="4" placeholder="Describe your project, features, pages…" required></textarea></div>
+          <button type="submit" class="btn btn-primary btn-block"><i class="fab fa-whatsapp"></i> Send via WhatsApp</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <p class="sec-lbl reveal-up">// Contact</p>
+      <h2 class="sec-h reveal-up">Let's work<br /><em>together</em></h2>
+      <div class="con-layout">
+        <div class="con-info reveal-left">
+          <p class="con-intro">Have a project, question, or just want to say hi? My inbox is always open.</p>
+          <div class="con-cards">
+            <a href="mailto:teniolamercyola@gmail.com" class="ccard"><i class="fas fa-envelope"></i><div><span>Email</span><strong>teniolamercyola@gmail.com</strong></div></a>
+            <a href="https://wa.me/2347042692224"      class="ccard" target="_blank"><i class="fab fa-whatsapp"></i><div><span>WhatsApp</span><strong>+234 704 269 2224</strong></div></a>
+            <a href="https://github.com/Teniola00001"       class="ccard" target="_blank"><i class="fab fa-github"></i><div><span>GitHub</span><strong>github.com</strong></div></a>
+          </div>
+        </div>
+        <form id="contact-form" class="con-form reveal-right" novalidate>
+          <div class="fg"><label for="cn">Name <abbr title="required">*</abbr></label><input type="text"  id="cn" name="name"    placeholder="Your Name"       required /></div>
+          <div class="fg"><label for="ce">Email <abbr title="required">*</abbr></label><input type="email" id="ce" name="email"  placeholder="your@email.com" required /></div>
+          <div class="fg"><label for="cm">Message <abbr title="required">*</abbr></label><textarea id="cm" name="message" rows="5" placeholder="Tell me about your project…" required></textarea></div>
+          <button type="submit" class="btn btn-primary btn-block" id="con-btn"><i class="fas fa-paper-plane"></i> Send Message</button>
+          <div id="con-ok" class="form-ok" style="display:none;" role="alert"><i class="fas fa-check-circle"></i> Sent! I'll reply within 24 hours.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <div class="foot-logo">Teniola<span>.</span></div>
+          <p>Full Stack Developer building modern web experiences from Lagos, Nigeria.</p>
+          <div class="foot-soc">
+            <a href="https://github.com/Teniola00001"      target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://wa.me/2347042692224"      target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:teniolamercyola@gmail.com"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="foot-col"><h5>Navigate</h5><ul><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#projects">Projects</a></li><li><a href="#request">Hire Me</a></li><li><a href="#contact">Contact</a></li></ul></div>
+        <div class="foot-col"><h5>Services</h5><ul><li><a href="#request">Web Design</a></li><li><a href="#request">Full Stack Apps</a></li><li><a href="#request">API Dev</a></li><li><a href="#request">DB Design</a></li></ul></div>
+        <div class="foot-col"><h5>Stack</h5><ul><li><a href="#skills">Angular</a></li><li><a href="#skills">Spring Boot</a></li><li><a href="#skills">Java &amp; TypeScript</a></li><li><a href="#skills">SQL</a></li></ul></div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2026 Teniola. All rights reserved.</span>
+        <span>Crafted with <i class="fas fa-heart"></i> in Lagos</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══ PROJECT MODAL ═══ -->
+  <div id="proj-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-name" hidden>
+    <div class="modal-bg"   id="modal-bg"></div>
+    <div class="modal-box">
+      <button class="modal-x" id="modal-x" aria-label="Close"><i class="fas fa-times"></i></button>
+      <div class="modal-img"><img id="modal-img" src="" alt="" loading="lazy" /><div id="modal-bdg"></div></div>
+      <div class="modal-body">
+        <h3 id="modal-name"></h3>
+        <p  id="modal-desc"></p>
+        <div id="modal-tags" class="tag-row"></div>
+        <div class="modal-acts">
+          <a id="modal-gh"   href="#" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> Code</a>
+          <a id="modal-live" href="#" target="_blank" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <button id="btt" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
