@@ -57,7 +57,7 @@ const projects = [
   },
    {
     name:        "HR portal And expenses tracking system",
-    image:       "banc.png",                     // add: "images/projects/taskmanager.png"
+    image:       "hr.png",                     // add: "images/projects/taskmanager.png"
     description: "Design Sample",
     tech:        ["Angular"],
     github:      "",
