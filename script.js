@@ -55,6 +55,16 @@ const projects = [
     featured:    true,
     badge:       ""
   },
+   {
+    name:        "HR portal And expenses tracking system",
+    image:       "banc.png",                     // add: "images/projects/taskmanager.png"
+    description: "Design Sample",
+    tech:        ["Angular"],
+    github:      "",
+    demo:        "https://teniola00001.github.io/HR-Portal/",                     // add live demo URL when deployed
+    featured:    true,
+    badge:       ""
+  },
 
   // ── ADD YOUR REAL PROJECTS HERE ──────────────────────────
   // Copy the template from the comment block at the top of
